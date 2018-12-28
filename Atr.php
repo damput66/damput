@@ -63,10 +63,7 @@ echo "Masukkan Jumlah Suntik : ";
 
 		$result = curl_exec($ch);
 
-	return $result;
-
-}
-
+	
 		$ch = curl_init();
 
 			curl_setopt($ch, CURLOPT_URL, "https://com.cari.promo.diskon/$rand");
