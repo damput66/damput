@@ -1,5 +1,5 @@
 <?php
-cho "Masukkan UserId/Uid : ";
+echo "Masukkan UserId/Uid : ";
 $uid 	= trim(fgets(STDIN));
 echo "Masukkan N ID : ";
 $n 	= trim(fgets(STDIN));
